@@ -32,10 +32,28 @@ export default class Product extends Component {
               )}
             </button>
           </div>
+          <div className="card-footer d-flex justify-content-between">
+            <p className="align-self-senter mb-0">
+              {title}
+              <h5 className="text-blue font-italic mb-0">
+                <span className="mr-1">$</span>
+                {price}
+              </h5>
+            </p>
+          </div>
         </div>
       </ProductWrapper>
     );
   }
 }
 
-const ProductWrapper = styled.div``;
+const ProductWrapper = styled.div`
+  .card {
+    border-color: transparent;
+    transition: all 1s linear;
+  }
+  .card-footer {
+    background: transparent;
+    border-top: transparent;
+  }
+`;
