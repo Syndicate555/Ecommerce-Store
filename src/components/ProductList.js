@@ -4,19 +4,16 @@ import Title from "./Title";
 import { storeProducts } from "../data";
 import styled from "styled-components";
 import { ProductConsumer } from "../context";
-import PropTypes from "prop-types";
-
 export default class ProductList extends Component {
   state = {
     products: storeProducts
   };
   render() {
-    console.log(this.state.products);
     return (
       <React.Fragment>
-        <div className="py-5">
+        <ProductWrapper className="py-5">
           <div className="container">
-            <Title name="Photo" title="Gallery" />
+            <Title name="our" title="products" />
             <div className="row">
               <ProductConsumer>
                 {value => {
@@ -27,10 +24,10 @@ export default class ProductList extends Component {
               </ProductConsumer>
             </div>
           </div>
-        </div>
+        </ProductWrapper>
       </React.Fragment>
     );
   }
 }
 
-//const ProductWrapper = styled.section``;
+const ProductWrapper = styled.section``;

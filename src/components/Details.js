@@ -10,7 +10,7 @@ export default class Details extends Component {
         {value => {
           const {
             id,
-            company,
+            location,
             img,
             info,
             price,
@@ -32,7 +32,7 @@ export default class Details extends Component {
                 <div className="col-10 mx-auto col-md-6 my-3 text-capitalized">
                   <h1>{title}</h1>
                   <h4 className="text-title text-uppercase text-muted mt-3 mb-2">
-                    Location: <span className="text-uppercase">{company}</span>
+                    Location: <span className="text-uppercase">{location}</span>
                   </h4>
                   <h4 className="text-blue">
                     <strong>
@@ -51,6 +51,7 @@ export default class Details extends Component {
                         disabled={inCart ? true : false}
                         onClick={() => {
                           value.addToCart(id);
+                          value.openModal(id);
                         }}
                       >
                         {inCart ? "inCart" : "add to cart"}
