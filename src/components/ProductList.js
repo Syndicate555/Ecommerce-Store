@@ -4,6 +4,7 @@ import Title from "./Title";
 import { storeProducts } from "../data";
 import styled from "styled-components";
 import { ProductConsumer } from "../context";
+import PropTypes from "prop-types";
 
 export default class ProductList extends Component {
   state = {
