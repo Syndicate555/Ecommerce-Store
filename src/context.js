@@ -22,11 +22,19 @@ class ProductProvider extends Component {
     });
   };
 
-  handleDetail = () => {
-    console.log("hello from detail");
+  getItem = id => {
+    const product = this.state.product.find(item => item.id === id);
+    return product;
   };
-  addToCart = () => {
-    console.log("hello from add to cart");
+
+  handleDetail = id => {
+    const product = this.getItem();
+    this.state(() => {
+      return { detailProduct: product };
+    });
+  };
+  addToCart = id => {
+    console.log(`hello from add to cart.id is ${id} `);
   };
   render() {
     return (

@@ -1,7 +1,7 @@
 export const storeProducts = [
   {
     id: 1,
-    title: "Google Pixel - Black",
+    title: "Moraine Lake",
     img: "img/product-1.jpg",
     price: 10,
     company: "GOOGLE",
@@ -13,7 +13,7 @@ export const storeProducts = [
   },
   {
     id: 2,
-    title: "Samsung S7",
+    title: "Foggy Morning",
     img: "img/product-2.jpg",
     price: 16,
     company: "SAMSUNG",
@@ -25,7 +25,7 @@ export const storeProducts = [
   },
   {
     id: 3,
-    title: "HTC 10 - Black",
+    title: "Canoeing @ Jasper",
     img: "img/product-3.jpg",
     price: 8,
     company: "htc",
@@ -37,7 +37,7 @@ export const storeProducts = [
   },
   {
     id: 4,
-    title: "HTC 10 - White",
+    title: "Forrest",
     img: "img/product-4.jpg",
     price: 18,
     company: "htc",
@@ -49,7 +49,7 @@ export const storeProducts = [
   },
   {
     id: 5,
-    title: "HTC Desire 626s",
+    title: "Sunset @ Rideau Canal",
     img: "img/product-5.jpg",
     price: 24,
     company: "htc",
@@ -61,7 +61,7 @@ export const storeProducts = [
   },
   {
     id: 6,
-    title: "Vintage Iphone",
+    title: "Ottawa in a Nutshell",
     img: "img/product-6.jpg",
     price: 17,
     company: "apple",
@@ -73,7 +73,7 @@ export const storeProducts = [
   },
   {
     id: 7,
-    title: "Iphone 7",
+    title: "Abstract",
     img: "img/product-7.jpg",
     price: 30,
     company: "apple",
@@ -85,7 +85,7 @@ export const storeProducts = [
   },
   {
     id: 8,
-    title: "Smashed Iphone",
+    title: "Sunset",
     img: "img/product-8.jpg",
     price: 2,
     company: "apple",
@@ -97,7 +97,7 @@ export const storeProducts = [
   },
   {
     id: 9,
-    title: "Smashed Iphone",
+    title: "Lake Louise",
     img: "img/product-9.jpg",
     price: 2,
     company: "apple",
@@ -109,7 +109,7 @@ export const storeProducts = [
   },
   {
     id: 10,
-    title: "Smashed Iphone",
+    title: "Urban Train Station",
     img: "img/product-10.jpg",
     price: 2,
     company: "apple",
@@ -121,7 +121,7 @@ export const storeProducts = [
   },
   {
     id: 11,
-    title: "Smashed Iphone",
+    title: "Gandalf",
     img: "img/product-11.jpg",
     price: 2,
     company: "apple",
@@ -133,7 +133,7 @@ export const storeProducts = [
   },
   {
     id: 12,
-    title: "Smashed Iphone",
+    title: "Dark Corridors",
     img: "img/product-12.jpg",
     price: 2,
     company: "apple",
@@ -145,7 +145,7 @@ export const storeProducts = [
   },
   {
     id: 13,
-    title: "Smashed Iphone",
+    title: "Arial Shot of Oman",
     img: "img/product-13.jpg",
     price: 2,
     company: "apple",
@@ -157,7 +157,7 @@ export const storeProducts = [
   },
   {
     id: 14,
-    title: "Smashed Iphone",
+    title: "Sultan's Cruise Ship",
     img: "img/product-14.jpg",
     price: 2,
     company: "apple",
@@ -169,7 +169,7 @@ export const storeProducts = [
   },
   {
     id: 15,
-    title: "Smashed Iphone",
+    title: "Jebel Akhdar",
     img: "img/product-15.jpg",
     price: 2,
     company: "apple",
@@ -181,7 +181,7 @@ export const storeProducts = [
   },
   {
     id: 16,
-    title: "Smashed Iphone",
+    title: "Crowded Streets of Downtown",
     img: "img/product-16.jpg",
     price: 2,
     company: "apple",
@@ -195,6 +195,7 @@ export const storeProducts = [
 
 export const detailProduct = {
   id: 1,
+  genre: "National Parks",
   title: "Banff Canada",
   img: "img/product-1.jpg",
   price: 10,
