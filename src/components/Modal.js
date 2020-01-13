@@ -59,6 +59,6 @@ const ModalContainer = styled.div`
   align-items: center;
   justify-content: center;
   #modal {
-    background: #f8f8f8;
+    background: #b8f3f7;
   }
 `;

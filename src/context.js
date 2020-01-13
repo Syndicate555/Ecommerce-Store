@@ -99,17 +99,14 @@ class ProductProvider extends Component {
     }
   };
   getTotals = () => {
-    // const subTotal = this.state.cart
-    //   .map(item => item.total)
-    //   .reduce((acc, curr) => {
-    //     acc = acc + curr;
-    //     return acc;
-    //   }, 0);
+    // Totals calculations
+
     let subTotal = 0;
     this.state.cart.map(item => (subTotal += item.total));
-    const tempTax = subTotal * 0.1;
+    const tempTax = subTotal * 0.13; // 13% tax
     const tax = parseFloat(tempTax.toFixed(2));
-    const total = subTotal + tax;
+    const beforetotal = subTotal + tax;
+    const total = beforetotal.toFixed(2); // Rounding to 2 decimals
     return {
       subTotal,
       tax,
