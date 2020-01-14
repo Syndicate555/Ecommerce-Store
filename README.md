@@ -1,4 +1,4 @@
-This is a Fullstack web-development project created using React. Its an ecommerce site that sells some of my personal photos. I am still working on the back-end to develop the payment method to complete the transactions from customers.
+This is a Fullstack web-development project created using React. Its an ecommerce site that sells some of my personal photos. For the back end I have used paypal API to create the payment system. 
 
 Visit the site - https://syndicatestore.netlify.com/
 
