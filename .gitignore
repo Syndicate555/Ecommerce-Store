@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+.end.development
 
 # testing
 /coverage

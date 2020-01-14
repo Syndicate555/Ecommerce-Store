@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-// import PayPalButton from "./PayPalButton";
+import PayPalButton from "./PayPalButton";
 import { Link } from "react-router-dom";
 export default class CartTotals extends Component {
   render() {
@@ -41,11 +41,11 @@ export default class CartTotals extends Component {
                   <span className="text-title"> total :</span>{" "}
                   <strong>$ {cartTotal} </strong>
                 </h5>
-                {/* <PayPalButton
+                <PayPalButton
                   totalAmount={cartTotal}
                   clearCart={clearCart}
                   history={history}
-                /> */}
+                />
               </div>
             </div>
           </div>
