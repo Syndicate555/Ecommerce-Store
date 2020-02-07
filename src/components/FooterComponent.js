@@ -4,7 +4,7 @@ import style from "./recipe.module.css";
 function Footer(props) {
   return (
     <footer className={style.footer}>
-      Created by <a href="https://www.saffataziz.site/"> Saffat Aziz</a>
+      Created by <a href="https://www.saffataziz.site/" target="_blank"> Saffat Aziz</a>
     </footer>
   );
 }
